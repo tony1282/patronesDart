@@ -5,7 +5,7 @@ abstract class GeneradorReportes {
 
   void generarReporte(List<int> calificaciones) {
     if (calificaciones.isEmpty) {
-      throw ArgumentError('La lista de calificaciones no puede estar vacia');
+      throw ArgumentError("La lista de calificaciones esta vacia");
     }
 
     final documento = crearDocumento();
