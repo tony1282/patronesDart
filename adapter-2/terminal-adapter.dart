@@ -5,7 +5,7 @@ import 'terminal-externa.dart';
 
 class TerminalAdapter implements MedioPago {
   final TerminalExterna terminal;
-  TerminalAdapter({required this.terminal});
+  TerminalAdapter({this.terminal});
 
   @override
   void pagar(double pesos) {

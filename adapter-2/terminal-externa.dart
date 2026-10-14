@@ -3,6 +3,6 @@
 
 class TerminalExterna {
   void cobrar(double dolares) {
-    print('Servicio externo: cobro de ${dolares.toStringAsFixed(2)} dolares');
+    print('Terminal Externa: cobro de ${dolares.toStringAsFixed(2)} dolares');
   }
 }
