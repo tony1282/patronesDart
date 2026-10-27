@@ -3,4 +3,8 @@ class ReproductorWav {
   void reproducirWav(String archivo) {
     print('Reproduciendo WAV: $archivo');
   }
+
+  void detenerWav() {
+    print('Deteniendo WAV');
+  }
 }

@@ -12,4 +12,9 @@ class WavAdapter implements Reproductor {
   void reproducir(String archivo) {
     _wav.reproducirWav(archivo);
   }
+
+  @override
+  void detener() {
+    _wav.detenerWav();
+  }
 }

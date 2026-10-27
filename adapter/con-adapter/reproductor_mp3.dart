@@ -6,4 +6,9 @@ class ReproductorMp3 implements Reproductor {
   void reproducir(String archivo) {
     print('Reproduciendo MP3: $archivo');
   }
+
+  @override
+  void detener() {
+    print('Deteniendo MP3');
+  }
 }
