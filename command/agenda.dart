@@ -1,11 +1,4 @@
 class Agenda {
-  final tareas = [
-    'Estudiar Dart',
-    'Estudiar mis HUs',
-    'Preguntarle a chat como hacer un merge',
-    'Decirle a chat que haga mi tarea de ingles',
-    'Hacer UI de la app movil',
-  ];
   String? eliminada;
   int? posicionAnterior;
 
